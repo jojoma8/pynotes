@@ -7,7 +7,7 @@ export default function Home() {
         <title>pyNotes</title>
       </Head>
 
-      <h1>Let's build my dream</h1>
+      <h1>{"Let's build my dream"}</h1>
     </div>
   );
 }
