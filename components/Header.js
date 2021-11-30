@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+// import Image from "next/image";
 import { BellIcon, ChatIcon } from "@heroicons/react/solid";
 import { FlagIcon, SearchIcon } from "@heroicons/react/outline";
 
