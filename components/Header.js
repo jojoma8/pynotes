@@ -16,7 +16,7 @@ function Header() {
           layout="fixed"
         /> */}
         <div className="flex">
-          {/* <SearchIcon className="h-6" /> */}
+          <SearchIcon className="h-6" />
           <input type="text" placeholder="Search pyNotes" />
         </div>
       </div>
