@@ -1,7 +1,7 @@
 import React from "react";
-import Image from "next/image";
+// import Image from "next/image";
 import { BellIcon, ChatIcon } from "@heroicons/react/solid";
-import { FlagIcon, SearchIcon } from "@heroicons/react/outline";
+import { FlagIcon, SearchIcon, GlobeIcon } from "@heroicons/react/outline";
 
 function Header() {
   return (
@@ -15,6 +15,7 @@ function Header() {
           height={40}
           layout="fixed"
         /> */}
+        <GlobeIcon className="h-6" />
         <div className="flex">
           <SearchIcon className="h-6" />
           <input type="text" placeholder="Search pyNotes" />
