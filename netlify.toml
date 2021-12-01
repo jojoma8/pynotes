@@ -3,3 +3,5 @@
   publish = "out"
   base="demos/default"
 
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
