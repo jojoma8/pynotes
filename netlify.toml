@@ -1,7 +1,7 @@
 [build]
   command = "npm run build && npm run export"
   publish = "out"
-  base="demos/default"
+
 
 [[plugins]]
-  package = "@netlify/plugin-nextjs"
+  package = "netlify-plugin-cache-nextjs"
