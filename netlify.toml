@@ -1,7 +1,7 @@
 [build]
-  command = "npm run build && yarn export"
+  command = "npm run build"
   publish = "out"
-  base="demos/default"
+
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
